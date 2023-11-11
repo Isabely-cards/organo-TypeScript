@@ -14,18 +14,3 @@
     color: #95FFD4;
 }
 
-@media (max-width: 1100px) {
-    .botao {
-        padding: 20px ;
-        font-size: 16px;
-
-    }
-}
-
-@media (max-width: 744px) {
-    .botao {
-        padding: 15px;
-        font-size: 14px;
-
-    }
-}
