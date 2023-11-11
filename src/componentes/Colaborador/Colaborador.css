@@ -6,6 +6,7 @@
     background-color:  #F0F0F0;
     border-radius: 10px 10px 0px 0px;
 }
+
 .colaborador img {
     width: 100px;
     border-radius: 50%;
@@ -34,4 +35,44 @@
     line-height: 22px;
     color: #212121;
     padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+    .colaborador {
+        width: 100%;
+    }
+
+    .colaborador img {
+        width: 80px;
+        bottom: -40px;
+    }
+
+    .colaborador .rodape {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .colaborador .rodape h4,
+    .colaborador .rodape h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .colaborador img {
+        width: 60px;
+        bottom: -30px;
+    }
+
+    .colaborador .rodape {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .colaborador .rodape h4,
+    .colaborador .rodape h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
 }

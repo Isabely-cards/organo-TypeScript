@@ -17,3 +17,18 @@
     padding: 24px;
     box-sizing: border-box;
 }
+@media (max-width: 768px) {
+    .campo-texto label,
+    .campo-texto input {
+        font-size: 18px;
+        padding: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .campo-texto label,
+    .campo-texto input {
+        font-size: 16px;
+        padding: 16px;
+    }
+}
