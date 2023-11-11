@@ -6,3 +6,25 @@
 .banner img {
     max-width: 100%;
 }
+
+@media (max-width: 1100px) {
+    .banner {
+        background-color: #6278F7;
+        text-align: center;
+    }
+    
+    .banner img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        background-color: #6278F7;
+        text-align: center;
+    }
+    
+    .banner img {
+        max-width: 80%;
+    }
+}
