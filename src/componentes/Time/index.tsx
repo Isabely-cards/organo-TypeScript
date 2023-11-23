@@ -11,10 +11,9 @@ interface TimeProps {
 }
 
 const Time = ({corPrimaria, corSecundaria, nome, colaboradores}:TimeProps) => {
-    const css = { backgroundColor: corSecundaria }
 
     return (
-        (colaboradores.length > 0) ? <section className='time' style={css}>
+        (colaboradores.length > 0) ? <section className='time' style={{ backgroundColor: corSecundaria, backgroundImage: 'url(/imagens/fundo.png)' }}>
             <h3 style={{ borderColor: corPrimaria }}>{nome}</h3>
             <div className='colaboradores'>
                 {colaboradores.map( colaborador => 
