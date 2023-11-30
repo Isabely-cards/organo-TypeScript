@@ -1,5 +1,5 @@
 .colaborador {
-    width: 280px;
+    width: 270px;
 }
 
 .colaborador .cabecalho {
@@ -38,12 +38,10 @@
 }
 
 @media (max-width: 768px) {
-    .colaborador {
-        width: 75%;
-    }
+    
 
     .colaborador img {
-        width: 80px;
+        width: 100px;
         bottom: -40px;
     }
 
@@ -60,6 +58,10 @@
 }
 
 @media (max-width: 480px) {
+    .colaborador {
+        width: 60%;
+    }
+
     .colaborador img {
         width: 90px;
         bottom: -30px;
